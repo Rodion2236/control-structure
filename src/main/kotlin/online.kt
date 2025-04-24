@@ -8,8 +8,8 @@ fun main() {
     agoToText(86400)   // был(а) вчера
     agoToText(172800)  // был(а) позавчера
     agoToText(259200)  // был(а) давно
-    agoToText(43200)  // был(а) давно
-    agoToText(720)  // был(а) давно
+    agoToText(43200)  // был(а) 12 часов назад
+    agoToText(720)  // был(а) 12 минут назад
 }
 
 fun agoToText(time: Int) {
