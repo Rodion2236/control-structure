@@ -1,5 +1,7 @@
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '2.1.10'
+    id 'jacoco'
+    id 'java'
 }
 
 group = 'ru.netology'
@@ -13,9 +15,6 @@ dependencies {
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
 }
 
-test {
-    useJUnitPlatform()
-}
 kotlin {
     jvmToolchain(17)
 }

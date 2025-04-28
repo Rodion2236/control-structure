@@ -20,7 +20,7 @@ fun main() {
 fun calculateCommission(
     cardtype:String = "Visa",
     previousTransfer: Int = 0,
-    transferAmount: Int = 10_000
+    transferAmount: Int = 3_000
 ): Int? {
 
     val dayLimit = 150_000
