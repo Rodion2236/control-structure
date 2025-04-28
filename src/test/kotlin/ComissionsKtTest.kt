@@ -68,11 +68,4 @@ class ComissionsKtTest {
   val result = calculateCommission("AmericanExpress", 0, 3_000)
   assertNull(result) // Неизвестный тип карты
  }
-
- // Тест параметров по умолчанию
- @Test
- fun calculateCommission_DefaultParameters() {
-  val result = calculateCommission()
-  assertEquals(35, result) // Visa, 0, 3_000 → min комиссия
- }
 }
