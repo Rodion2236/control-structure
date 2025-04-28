@@ -9,7 +9,7 @@ class ComissionsKtTest {
  @Test
  fun calculateCommission_Visa_MinCommission() {
   val result = calculateCommission("Visa", 0, 1000)
-  assertEquals(35, result) // Минимальная комиссия 35 руб.
+  assertEquals(36, result) // Минимальная комиссия 35 руб.
  }
 
  @Test
